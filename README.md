@@ -1,4 +1,4 @@
-# Rob's dotfiles
+# Alan's dotfiles
 
 ## Installation
 
@@ -41,10 +41,10 @@ My `~/.extra` looks something like this:
 ```bash
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
-GIT_AUTHOR_NAME="Rob Mills"
+GIT_AUTHOR_NAME="Alan Sutherland"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="robjmills@gmail.com"
+GIT_AUTHOR_EMAIL="alan.sutherland@liquidshop.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
